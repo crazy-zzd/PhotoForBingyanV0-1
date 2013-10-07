@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		629D0424180283C7007577B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 629D0423180283C7007577B1 /* UIKit.framework */; };
+		629D0426180283C7007577B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 629D0425180283C7007577B1 /* Foundation.framework */; };
+		629D0428180283C7007577B1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 629D0427180283C7007577B1 /* CoreGraphics.framework */; };
+		629D042E180283C7007577B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 629D042C180283C7007577B1 /* InfoPlist.strings */; };
+		629D0430180283C7007577B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 629D042F180283C7007577B1 /* main.m */; };
+		629D0434180283C7007577B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 629D0433180283C7007577B1 /* AppDelegate.m */; };
+		629D0436180283C7007577B1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 629D0435180283C7007577B1 /* Default.png */; };
+		629D0438180283C7007577B1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 629D0437180283C7007577B1 /* Default@2x.png */; };
+		629D043A180283C7007577B1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 629D0439180283C7007577B1 /* Default-568h@2x.png */; };
+		629D043D180283C7007577B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 629D043C180283C7007577B1 /* ViewController.m */; };
+		629D0440180283C7007577B1 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 629D043E180283C7007577B1 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		629D0420180283C7007577B1 /* PhotoForBingyanV0-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PhotoForBingyanV0-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		629D0423180283C7007577B1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		629D0425180283C7007577B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		629D0427180283C7007577B1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		629D042B180283C7007577B1 /* PhotoForBingyanV0-1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhotoForBingyanV0-1-Info.plist"; sourceTree = "<group>"; };
+		629D042D180283C7007577B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		629D042F180283C7007577B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		629D0431180283C7007577B1 /* PhotoForBingyanV0-1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhotoForBingyanV0-1-Prefix.pch"; sourceTree = "<group>"; };
+		629D0432180283C7007577B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		629D0433180283C7007577B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		629D0435180283C7007577B1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		629D0437180283C7007577B1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		629D0439180283C7007577B1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		629D043B180283C7007577B1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		629D043C180283C7007577B1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		629D043F180283C7007577B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		629D041D180283C7007577B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				629D0424180283C7007577B1 /* UIKit.framework in Frameworks */,
+				629D0426180283C7007577B1 /* Foundation.framework in Frameworks */,
+				629D0428180283C7007577B1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		629D0417180283C7007577B1 = {
+			isa = PBXGroup;
+			children = (
+				629D0429180283C7007577B1 /* PhotoForBingyanV0-1 */,
+				629D0422180283C7007577B1 /* Frameworks */,
+				629D0421180283C7007577B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		629D0421180283C7007577B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				629D0420180283C7007577B1 /* PhotoForBingyanV0-1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		629D0422180283C7007577B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				629D0423180283C7007577B1 /* UIKit.framework */,
+				629D0425180283C7007577B1 /* Foundation.framework */,
+				629D0427180283C7007577B1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		629D0429180283C7007577B1 /* PhotoForBingyanV0-1 */ = {
+			isa = PBXGroup;
+			children = (
+				629D0432180283C7007577B1 /* AppDelegate.h */,
+				629D0433180283C7007577B1 /* AppDelegate.m */,
+				629D043B180283C7007577B1 /* ViewController.h */,
+				629D043C180283C7007577B1 /* ViewController.m */,
+				629D043E180283C7007577B1 /* ViewController.xib */,
+				629D042A180283C7007577B1 /* Supporting Files */,
+			);
+			path = "PhotoForBingyanV0-1";
+			sourceTree = "<group>";
+		};
+		629D042A180283C7007577B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				629D042B180283C7007577B1 /* PhotoForBingyanV0-1-Info.plist */,
+				629D042C180283C7007577B1 /* InfoPlist.strings */,
+				629D042F180283C7007577B1 /* main.m */,
+				629D0431180283C7007577B1 /* PhotoForBingyanV0-1-Prefix.pch */,
+				629D0435180283C7007577B1 /* Default.png */,
+				629D0437180283C7007577B1 /* Default@2x.png */,
+				629D0439180283C7007577B1 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		629D041F180283C7007577B1 /* PhotoForBingyanV0-1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 629D0443180283C7007577B1 /* Build configuration list for PBXNativeTarget "PhotoForBingyanV0-1" */;
+			buildPhases = (
+				629D041C180283C7007577B1 /* Sources */,
+				629D041D180283C7007577B1 /* Frameworks */,
+				629D041E180283C7007577B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PhotoForBingyanV0-1";
+			productName = "PhotoForBingyanV0-1";
+			productReference = 629D0420180283C7007577B1 /* PhotoForBingyanV0-1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		629D0418180283C7007577B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "朱 俊健";
+			};
+			buildConfigurationList = 629D041B180283C7007577B1 /* Build configuration list for PBXProject "PhotoForBingyanV0-1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 629D0417180283C7007577B1;
+			productRefGroup = 629D0421180283C7007577B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				629D041F180283C7007577B1 /* PhotoForBingyanV0-1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		629D041E180283C7007577B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				629D042E180283C7007577B1 /* InfoPlist.strings in Resources */,
+				629D0436180283C7007577B1 /* Default.png in Resources */,
+				629D0438180283C7007577B1 /* Default@2x.png in Resources */,
+				629D043A180283C7007577B1 /* Default-568h@2x.png in Resources */,
+				629D0440180283C7007577B1 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		629D041C180283C7007577B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				629D0430180283C7007577B1 /* main.m in Sources */,
+				629D0434180283C7007577B1 /* AppDelegate.m in Sources */,
+				629D043D180283C7007577B1 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		629D042C180283C7007577B1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				629D042D180283C7007577B1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		629D043E180283C7007577B1 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				629D043F180283C7007577B1 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		629D0441180283C7007577B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		629D0442180283C7007577B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		629D0444180283C7007577B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoForBingyanV0-1/PhotoForBingyanV0-1-Prefix.pch";
+				INFOPLIST_FILE = "PhotoForBingyanV0-1/PhotoForBingyanV0-1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		629D0445180283C7007577B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoForBingyanV0-1/PhotoForBingyanV0-1-Prefix.pch";
+				INFOPLIST_FILE = "PhotoForBingyanV0-1/PhotoForBingyanV0-1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		629D041B180283C7007577B1 /* Build configuration list for PBXProject "PhotoForBingyanV0-1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				629D0441180283C7007577B1 /* Debug */,
+				629D0442180283C7007577B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		629D0443180283C7007577B1 /* Build configuration list for PBXNativeTarget "PhotoForBingyanV0-1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				629D0444180283C7007577B1 /* Debug */,
+				629D0445180283C7007577B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 629D0418180283C7007577B1 /* Project object */;
+}
