@@ -16,4 +16,9 @@
 
 @property (strong, nonatomic) ViewController *viewController;
 
+-(void)originalView;
+-(void)forwardView;
+-(void)setInputImage:(UIImage *)theImage;
+
+
 @end

@@ -12,6 +12,21 @@
 
 @implementation AppDelegate
 
+- (void)originalView
+{
+    [self.viewController getbackView];
+}
+
+- (void)forwardView
+{
+    [self.viewController getforwardView];
+}
+
+- (void)setInputImage:(UIImage *)theImage
+{
+    [self.viewController setInputImage:theImage];
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
